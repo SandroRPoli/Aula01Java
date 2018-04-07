@@ -27,6 +27,7 @@ public class IncluindoCliente {
 		cliente.setEmail("teste@teste");
 
 		Transaction t = s.beginTransaction();
+		
 		s.save(cliente);
 		t.commit();
 	}

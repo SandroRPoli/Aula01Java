@@ -24,6 +24,11 @@
 		<property name="hibernate.c3p0.preferredTestQuery">Select 1;</property>	
 		
 		<mapping class="br.aula.model.Cliente"/>	
+		<mapping class="br.aula.model.Usuario"/>	
+		<mapping class="br.aula.model.Review"/>	
+		<mapping class="br.aula.model.Autor"/>	
+		<mapping class="br.aula.model.Livro"/>
+		<mapping class="br.aula.model.Emprestimo"/>
 		
 	</session-factory>
 </hibernate-configuration>
